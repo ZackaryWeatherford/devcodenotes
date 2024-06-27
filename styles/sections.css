@@ -1,0 +1,61 @@
+
+.showcase-section{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.showcase-section > div > img{
+    margin-top: 5rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+.showcase-section > h2{
+    text-align: center;
+    width: 40%; 
+    margin-bottom: 10rem;  
+}
+
+.showcase-section > h1{
+    text-align: center;
+    width: 80%;   
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30rem;
+    color: black;
+}
+
+.title-effect1{
+    color: #00d080;
+}
+
+.title-effect2{
+    color: #fc415d;
+}
+
+.flashcard-section{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resources-title{
+    text-align: center;
+    font-size: 4rem;
+
+    margin-bottom: 10rem;
+    margin-top: 20rem;
+}

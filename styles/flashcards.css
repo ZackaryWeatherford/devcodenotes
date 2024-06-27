@@ -1,0 +1,93 @@
+.flashcard {
+  width: 20rem;
+  height: 10rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 3rem;
+
+  transition: 200ms;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flashcard > p {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.rotate2deg {
+  transform: rotate(2deg);
+}
+
+.rotate2deg:hover {
+  transform: rotate(-2deg);
+}
+
+.rotate-2deg {
+  transform: rotate(-2deg);
+}
+
+.rotate-2deg:hover {
+  transform: rotate(2deg);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 20rem;
+  height: 10rem;
+  perspective: 1000px;
+  text-align: center;
+  margin-top: 3rem;
+
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    .front,
+    .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .front {
+      background-color: #ffffff;
+      color: black;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    .back {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      transform: rotateX(178deg);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+  }
+  &:hover {
+    .inner {
+      transform: rotateX(178deg);
+    }
+  }
+}
+
+.thumbnail {
+  margin-top: 15rem;
+  border-radius: 10px;
+}
+
+.thumbnail:hover{
+  opacity: 0.8;
+}
