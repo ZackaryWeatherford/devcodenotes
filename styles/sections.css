@@ -1,6 +1,6 @@
 
 .showcase-section{
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,9 @@
     flex-wrap: wrap;
     margin-bottom: 30rem;
     color: black;
-}
-
-.title-effect1{
-    color: #00d080;
-}
-
-.title-effect2{
-    color: #fc415d;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flashcard-section{
@@ -52,10 +47,7 @@
     justify-content: space-evenly;
 }
 
-.resources-title{
-    text-align: center;
-    font-size: 4rem;
-
-    margin-bottom: 10rem;
-    margin-top: 20rem;
+footer {
+  text-align: center;
+  margin-bottom: 1rem;
 }

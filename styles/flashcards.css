@@ -83,11 +83,4 @@
   }
 }
 
-.thumbnail {
-  margin-top: 15rem;
-  border-radius: 10px;
-}
 
-.thumbnail:hover{
-  opacity: 0.8;
-}

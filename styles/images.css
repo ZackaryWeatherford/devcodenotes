@@ -1,0 +1,16 @@
+.image {
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+.image:hover {
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  margin-top: 15rem;
+  border-radius: 10px;
+}
+
+.thumbnail:hover{
+  opacit
