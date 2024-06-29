@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/sections.css" />
     <link rel="stylesheet" href="styles/cards.css" />
-    <link rel="stylesheet" href="styles/flashcards.css">
-    <link rel="stylesheet" href="styles/backgrounds.css">
-    <link rel="stylesheet" href="styles/text.css">
-    <link rel="stylesheet" href="styles/images.css">
+    <link rel="stylesheet" href="styles/flashcards.css" />
+    <link rel="stylesheet" href="styles/backgrounds.css" />
+    <link rel="stylesheet" href="styles/text.css" />
+    <link rel="stylesheet" href="styles/images.css" />
 
-    <title>Dev Notes</title>
+    <title>DevCodeNotes</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-icon-container">
-        <span class="nav-icon">&lt;Dev Notes&gt;</span>
+        <a href="#">
+          <span class="nav-icon">&lt;Dev Notes&gt;</span>
+        </a>
       </div>
 
-      <ul class="nav-list">
+      <ul>
         <li class="nav-item">
-          <a href="">Videos</a>
+          <a href="https://www.youtube.com/channel/UCTIZHYfTXfIs6W_j9-dKRrg">Videos</a>
         </li>
         <li class="nav-item">
           <a href="#resources">Resources</a>
         </li>
         <li class="nav-item">
-          <a href="">Roadmap</a>
+          <a href="pages/roadmap.html">Roadmap</a>
         </li>
-        <li class="nav-item">
-          <a href="">Projects</a>
-        </li>
+
       </ul>
     </nav>
 
@@ -51,7 +51,7 @@
 
         <div class="flashcard-section">
           <div>
-            <img src="assets/markdown.webp" alt="" width="600" class="image"/>
+            <img src="assets/markdown.webp" alt="" width="600" class="image" />
           </div>
 
           <div>
@@ -61,7 +61,10 @@
                   <p>What is semantics?</p>
                 </div>
                 <div class="back">
-                  <p>In HTML, semantics means using meaningful tags to describe content.</p>
+                  <p>
+                    In HTML, semantics means using meaningful tags to describe
+                    content.
+                  </p>
                 </div>
               </div>
             </div>
@@ -72,7 +75,9 @@
                   <p>What is local web storage?</p>
                 </div>
                 <div class="back">
-                  <p>Local web storage stores persistent data in the browser.</p>
+                  <p>
+                    Local web storage stores persistent data in the browser.
+                  </p>
                 </div>
               </div>
             </div>
@@ -83,7 +88,10 @@
                   <p>What are ARIA attributes?</p>
                 </div>
                 <div class="back">
-                  <p>ARIA attributes improve web accessibility for assistive technologies.</p>
+                  <p>
+                    ARIA attributes improve web accessibility for assistive
+                    technologies.
+                  </p>
                 </div>
               </div>
             </div>
@@ -91,7 +99,12 @@
 
           <div>
             <a href="https://www.youtube.com/channel/UCTIZHYfTXfIs6W_j9-dKRrg">
-              <img src="assets/HTML-Thubnail.jpg" alt="" class="thumbnail" width="900">
+              <img
+                src="assets/HTML-Thubnail.jpg"
+                alt=""
+                class="thumbnail"
+                width="900"
+              />
             </a>
           </div>
         </div>
@@ -102,13 +115,16 @@
 
     <div>
       <h2 class="resources-title" id="resources">Resources</h2>
-      <p class="resources-description">Check out these free resources. This list will be continously updated and more resources will be added.</p>
+      <p class="resources-description">
+        Check out these free resources. This list will be continously updated
+        and more resources will be added.
+      </p>
     </div>
 
     <section class="cards-section">
       <div class="card">
         <div class="card-color orange-gradient">
-          <img src="assets/html-logo.png" alt="" width="100">
+          <img src="assets/html-logo.png" alt="" width="100" />
         </div>
 
         <h3>HTML5</h3>
@@ -121,9 +137,9 @@
         </ul>
       </div>
 
-      <div class="card">
+      <div class="card disable-card">
         <div class="card-color blue-gradient">
-          <img src="assets/css-logo.png" alt="" width="75">
+          <img src="assets/css-logo.png" alt="" width="75" />
         </div>
 
         <h3>CSS3</h3>
@@ -136,9 +152,9 @@
         </ul>
       </div>
 
-      <div class="card">
+      <div class="card disable-card">
         <div class="card-color red-gradient">
-          <img src="assets/java-logo.png" alt="" width="45">
+          <img src="assets/java-logo.png" alt="" width="45" />
         </div>
 
         <h3>Java</h3>
@@ -151,7 +167,7 @@
         </ul>
       </div>
     </section>
-    
+
     <footer class="">&copy; 2024 - devcodenotes - All Rights Reserved</footer>
   </body>
 </html>
